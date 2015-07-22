@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <link href="style/style.css" rel="stylesheet" />
+  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/jquery.slider-touch.js"></script>
+  <!-- nativeDroid core CSS -->
+  <link rel="stylesheet" href="css/jquerymobile.nativedroid.css" />
+  <!-- nativeDroid: Light/Dark -->
+  <link rel="stylesheet" href="css/jquerymobile.nativedroid.dark.css"  id='jQMnDTheme' />
+  <!-- nativeDroid: Color Schemes -->
+  <link rel="stylesheet" href="css/jquerymobile.nativedroid.color.green.css" id='jQMnDColor' />
+</head>
+<body>
+<div data-role="page" id="cart" >
+    <div data-role="header" data-position="fixed" data-tap-toggle="false" class="bgss" role="banner">
+      <h1 class="bgssa"> <a href="#mypanel" data-ajax="false"><i class='fa fa-bars barcolo'></i></a></h1>
+      <h1 class="bgssb"><!-- <img src="images/logo.png" class="icologos "> --></h1>
+      <h1 class="bgssc">  <a><img src="images/adtocart.png" class="icocart "></a></h1>
+    </div>
+    <!--content-->
+    <div data-role="main" class="ui-content">
+      <a href="#popuplogin" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow butk" data-transition="pop">Login</a>
+      <br>
+      <a href="#popupsign" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow butk" data-transition="pop">Register</a>
+
+      <div data-role="popup" id="popupsign"  class="sigpop" data-theme="a" class="ui-corner-all">
+        <form method="post" name="register" id="register" action="">
+
+          <label for="un" class="ui-hidden-accessible">firstname:</label>
+          <input type="text" name="firstnameb" class="whit mg" id="firstnameb" value="" placeholder="Firstname" data-theme="a">
+          <label for="un" class="ui-hidden-accessible">Lastname:</label>
+          <input type="text" name="lastnameb" class="whit mg" id="lastnameb" value="" placeholder="Lastname" data-theme="a">
+          <label for="un" class="ui-hidden-accessible">Username:</label>
+          <input type="text" name="usernameb" class="whit mg" id="usernameb" value="" placeholder="Lastname" data-theme="a">
+          <label for="un" class="ui-hidden-accessible">Password:</label>
+          <input type="password" name="passwordb" class="whit mg" id="passwordb" value="" placeholder="password" data-theme="a">
+          <label for="pw" class="ui-hidden-accessible">EmailAddress:</label>
+          <input type="text" name="emailidb" class="whit mg" id="emailidb" value="" placeholder="EmailAddress" data-theme="a">
+
+          <button type="submit" id="register_btn" class="ui-btn">Submit</button> 
+        </form>
+      </div>
+      <div data-role="popup" id="popuplogin"  class="sigpop" data-theme="a" class="ui-corner-all">
+        <form method="post" name="register" id="register" action="">
+
+          <label for="un" class="ui-hidden-accessible">Username:</label>
+          <input type="text" name="usernameb" class="whit mg" id="usernameb" value="" placeholder="Lastname" data-theme="a">
+          <label for="un" class="ui-hidden-accessible">Password:</label>
+          <input type="password" name="passwordb" class="whit mg" id="passwordb" value="" placeholder="password" data-theme="a">
+          <button type="submit" id="register_btn" class="ui-btn">Submit</button> 
+        </form>
+      </div>
+    </div><!--content end-->
+    <div data-position="fixed" data-tap-toggle="false" data-role="footer" data-tap-toggle="false" data-theme='b'>
+      <div data-role="navbar">
+        <p class="foot"></p>
+      </div>
+    </div>
+    <div data-role="panel" data-display="push" id="mypanel">
+      <ul data-role="listview">
+        <li>Your wishes</li>
+        <li data-icon='false'><a href="#"><i class='lIcon fa fa-coffee'></i>Need a Coffee</a></li>
+        <li data-icon='false'><a href="#"><i class='lIcon fa fa-beer'></i>Have a Beer</a></li>
+        <li data-icon='false'><a href="#"><i class='lIcon fa fa-music'></i>Play Music</a></li>
+        <li data-icon='false'><a href="#"><i class='lIcon fa fa-fire'></i>Make a fire</a></li>
+        <li data-icon='false'><a href="#"><i class='lIcon fa fa-bullhorn'></i>Shout it loud</a></li>
+        <li data-icon='false'><a href="#"><i class='lIcon fa fa-heart'></i>Meet friends</a></li>
+        <li data-icon='false'><a href="#"><i class='lIcon fa fa-trophy'></i>Win a Trophy</a></li>
+      </ul>
+    </div>
+  </div> 
+</body>
+</html>

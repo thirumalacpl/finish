@@ -1,0 +1,86 @@
+.ui-page-theme-b .nam{
+float: right !important;
+  position: relative !important;
+  top: -100px !important;
+}
+.ui-page-theme-b .pri{
+  float: right !important;
+  position: relative !important;
+  top: -60px !important;
+  left: 40px !important;
+}
+.banaa{
+	background-color: #5D9BAA !important;
+  width: 100% !important;
+  left: 10px;
+  top: -120px;
+}
+.ui-page-theme-b .ui-content .ui-link.ui-btn{
+	  background-color: rgba(13, 1, 1, 0.05);
+}
+.popw{
+	width: 200px !important;
+}
+
+.pophc{
+  background-color: #D27070 !important;
+  border-color: rgba(118, 46, 46, 0);
+  color: #FCFBFB;
+  text-shadow: 0 0px 0 #FDFDFD;
+
+}
+.popbc{
+  background-color: #5D9BAA !important;
+  border-color: rgba(118, 46, 46, 0);
+  color: #FCFBFB;
+  text-shadow: 0 0px 0 #FDFDFD;
+}
+.ce{
+  text-align: center !important;
+
+}
+ html .ui-page-theme-b .ui-body-inherit .alerta {
+  background-color: #5D9BAA !important;
+  color:#ffffff !important;
+  width: 100% !important;
+  left: 3% !important;
+  text-align: center !important;
+  height: 100px !important;
+
+  }
+ html .ui-page-theme-b .ui-body-inherit.alerta .alerta-active{
+     background-color: #5D9BAA !important;
+  color:#ffffff !important;
+  width: 100% !important;
+  
+  text-align: center !important;
+  
+  }
+.popwe{
+      font-weight:400 !important;
+  }
+  .ui-page-theme-b .ui-content .ui-link.ui-btn {
+    background-color: rgba(93, 156, 171, 1);
+  color: white;
+  font-weight: 500;
+}
+.cet{
+  text-align: center;
+  font-weight: 500 !important;
+}
+.but{
+  width: 120px !important;
+}
+.butms{
+  background-color: rgb(97, 162, 178);
+  width: 200px;
+  left: 20%;
+  color: white;
+  font-weight: 400;
+  right: 20%;
+}
+.bnt{
+  background-color: rgb(93, 156, 172) !important;
+  color: white !important;
+  font-weight: 500 !important;
+}
